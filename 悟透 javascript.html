@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Zhang Xianglin">
+        <meta name="description" content="悟透 javascript">
+        <title>悟透 javascript</title>
+    </head>
+    <body>
+        <h1>悟透 javascript</h1>
+        <script type="text/javascript">
+        var life = {};
+        for(life.age = 1; life.age <= 3; life.age++)
+        {
+        switch(life.age)
+        {
+            case 1: life.body = "卵细胞";
+                    life.say = function(){alert(this.age+this.body)};
+                    break;
+            case 2: life.tail = "尾巴";
+                    life.gill = "腮";
+                    life.body = "蝌蚪";
+                    life.say = function(){alert(this.age+this.body+"-"+this.tail+","+this.gill)};
+                    break;
+            case 3: delete life.tail;
+                    delete life.gill;
+                    life.legs = "四条腿";
+                    life.lung = "肺";
+                    life.body = "青蛙";
+                    life.say = function(){alert(this.age+this.body+"-"+this.legs+","+this.lung)};
+                    break;
+        };
+        // life.say();
+        };
+
+        function Sing()
+        {
+            with(arguments.callee)
+              alert(author + "：" + poem);
+        };
+        Sing.author = "李白";
+        Sing.poem = "汉家秦地月，流影照明妃。一上玉关道，天涯去不归";
+        Sing();
+        Sing.author = "李战";
+        Sing.poem = "日出汉家天，月落阴山前。女儿琵琶怨，已唱三千年";
+        Sing();
+        </script>
+    </body>
+</html>
