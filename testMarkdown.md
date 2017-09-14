@@ -47,4 +47,7 @@ var a = function(b, c) {
     ` var code = function(person) {
         return person
         }
-        `
+        `
+#### 想知道的一个效果
+* 这样
+  * 如此
