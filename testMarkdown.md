@@ -18,15 +18,6 @@
 #### 斜体
 *斜体原来介样子*
 #### 表格
-| Tables  | Are    | cool  |
-
-| ------- | :----: | ----: |
-
-| col3   | right  | $120  |
-
-| col2   | center | $23   |
-
-| zebra  | are ne | $0.2  |
 
 | Tables        | Are           | Cool  |
 
