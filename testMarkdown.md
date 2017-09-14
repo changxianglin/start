@@ -44,10 +44,10 @@ var a = function(b, c) {
 - 这也是另外变体的一个兄弟
 #### 来一个真正的代码
 * 下面是真正的代码
-` var a = function(p) {
+``` var a = function(p) {
   reutrn p
   }
-  `
+  ```
 #### 想知道的一个效果
 + 呵呵
     * 嘉嘉
