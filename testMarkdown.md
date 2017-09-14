@@ -42,3 +42,9 @@ var a = function(b, c) {
 + 保持住变体
 - 另外一个变体
 - 这也是另外变体的一个兄弟
+#### 来一个真正的代码
+* 下面是真正的代码
+    ` var code = function(person) {
+        return person
+        }
+        `
