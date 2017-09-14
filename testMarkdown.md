@@ -18,15 +18,25 @@
 #### 斜体
 *斜体原来介样子*
 #### 表格
-| Tables | Are    | cool  |
+| Tables  | Are    | cool  |
 
-|------- | :----: | ----: |
+| ------- | :----: | ----: |
 
 | col3   | right  | $120  |
 
 | col2   | center | $23   |
 
 | zebra  | are ne | $0.2  |
+
+| Tables        | Are           | Cool  |
+
+| ------------- |:-------------:| -----:|
+
+| col 3 is      | right-aligned | $1600 |
+
+| col 2 is      | centered      |   $12 |
+
+| zebra stripes | are neat      |    $1 |
 
 #### 代码框
 `这样的是代码框
