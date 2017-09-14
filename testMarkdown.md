@@ -60,3 +60,5 @@ var a = function(p) {
 
 #### 比较实用的一个 markdown 语法集
 * http://www.jianshu.com/p/250e36bb5690
+* https://segmentfault.com/markdown
+* http://blog.csdn.net/testcs_dn/article/details/44264609
